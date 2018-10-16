@@ -1,11 +1,11 @@
 body {
   min-width: 1230px;
-  margin: 0;
-  padding: 0;
   font-family: 'Montserrat', Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
   color: #8c8c8c;
+  margin: 0;
+  padding: 0;
   background-color: #fff
 }
 
@@ -39,13 +39,13 @@ img {
 
 .latest-projects .button, .purchase .button, .slide .button {
   font-family: 'Raleway', Arial, sans-serif;
-  font-weight: 800;
   font-size: 14px;
   line-height: 23px;
-  padding: 15px 38px 12px;
+  font-weight: 800;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 15px 38px 12px;
   background-color: #998675;
   -webkit-box-shadow: inset 0 3px 0 0 rgba(115, 99, 87, .004);
   box-shadow: inset 0 3px 0 0 rgba(115, 99, 87, .004);
@@ -74,15 +74,15 @@ img {
 
 .header-wrapper {
   width: 100%;
+  min-height: 1024px;
+  margin: 0 auto;
   background-color: #555556;
   background-image: url(../img/slider-2.jpg);
   background-repeat: no-repeat;
   background-position: top center;
   -webkit-transition: background-image .5s ease, background-color .5s ease;
   -o-transition: background-image .5s ease, background-color .5s ease;
-  transition: background-image .5s ease, background-color .5s ease;
-  min-height: 1024px;
-  margin: 0 auto
+  transition: background-image .5s ease, background-color .5s ease
 }
 
 .header-wrapper::before, .site-wrapper::after {
@@ -127,8 +127,8 @@ img {
   display: inline-block;
   vertical-align: top;
   font-family: 'Raleway', Arial, sans-serif;
-  font-weight: 400;
   font-size: 34px;
+  font-weight: 400;
   margin-left: 2px;
   margin-top: 10px
 }
@@ -259,10 +259,10 @@ img {
 }
 
 .slider-controls {
-  font-size: 0;
   position: absolute;
   top: 870px;
   left: 50%;
+  font-size: 0;
   margin-left: -53px
 }
 
@@ -287,10 +287,10 @@ img {
 .side-controls label {
   position: absolute;
   display: inline-block;
-  font-size: 0;
   width: 40px;
   height: 73px;
   top: 380px;
+  font-size: 0;
   opacity: .5;
   -webkit-transition: opacity .5s;
   -o-transition: opacity .5s;
@@ -306,15 +306,15 @@ img {
 }
 
 #slide-1:checked~.header-wrapper .side[for=slide-5], #slide-2:checked~.header-wrapper .side[for=slide-1], #slide-3:checked~.header-wrapper .side[for=slide-2], #slide-4:checked~.header-wrapper .side[for=slide-3], #slide-5:checked~.header-wrapper .side[for=slide-4] {
+  left: 55px;
   background: url(../img/left.svg) 0 0 no-repeat;
-  cursor: pointer;
-  left: 55px
+  cursor: pointer
 }
 
 #slide-1:checked~.header-wrapper .side[for=slide-2], #slide-2:checked~.header-wrapper .side[for=slide-3], #slide-3:checked~.header-wrapper .side[for=slide-4], #slide-4:checked~.header-wrapper .side[for=slide-5], #slide-5:checked~.header-wrapper .side[for=slide-1] {
+  right: 55px;
   background: url(../img/right.svg) 0 0 no-repeat;
-  cursor: pointer;
-  right: 55px
+  cursor: pointer
 }
 
 #slide-1:checked~.header-wrapper {
@@ -433,11 +433,11 @@ img {
 }
 
 .service-item svg {
+  width: 50px;
+  height: 50px;
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
-  order: -1;
-  width: 50px;
-  height: 50px
+  order: -1
 }
 
 .partner-logo-item a {
@@ -488,10 +488,10 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 150px;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  min-height: 150px
+  align-items: center
 }
 
 .purchase-title {
@@ -553,8 +553,8 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   list-style: none;
-  margin: 0 0 40px;
-  padding: 0
+  padding: 0;
+  margin: 0 0 40px
 }
 
 .filter-button {
@@ -565,10 +565,10 @@ img {
   line-height: 21px;
   padding: 5px 20px;
   margin-right: 10px;
-  cursor: pointer;
+  background-color: transparent;
   border: 1px solid #ebebeb;
   border-radius: 3px;
-  background-color: transparent;
+  cursor: pointer;
   -webkit-transition: color .5s, background-color .5s;
   -o-transition: color .5s, background-color .5s;
   transition: color .5s, background-color .5s
@@ -668,9 +668,9 @@ img {
 }
 
 .latest-project-info {
-  color: #d1d1d1;
   font-size: 14px;
-  line-height: 20px
+  line-height: 20px;
+  color: #d1d1d1
 }
 
 .latest-project-item:hover .latest-project-info {
@@ -878,9 +878,9 @@ img {
 }
 
 .mobile-adaptive-features {
-  list-style: none;
   margin: 0;
-  padding: 0
+  padding: 0;
+  list-style: none
 }
 
 .mobile-adaptive-feature {
@@ -900,7 +900,7 @@ img {
   height: 21px;
   left: 50px;
   top: -1px;
-  background: url(../img/04.png) 0 0 no-repeat
+  background: url(../img/feature-item-icon.png) 0 0 no-repeat
 }
 
 .counters {
@@ -925,10 +925,10 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  list-style: none;
+  text-align: center;
   margin: 0 auto;
   padding: 70px 0 0;
-  text-align: center;
+  list-style: none;
   width: 970px
 }
 
@@ -1006,11 +1006,11 @@ img {
 }
 
 .recent-posts-list {
-  list-style: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap
+  list-style: none
 }
 
 .recent-post-item {
@@ -1041,9 +1041,9 @@ img {
   font-size: 24px;
   line-height: 20px;
   color: #fff;
+  padding: 8px 10px;
   background-color: #363636;
-  border-radius: 3px 3px 0 0;
-  padding: 8px 10px
+  border-radius: 3px 3px 0 0
 }
 
 .date-day, .date-month, .recent-post-text {
@@ -1087,9 +1087,9 @@ img {
 .carousel-controls {
   position: absolute;
   font-size: 0;
-  z-index: 2;
   top: 187px;
-  left: 134px
+  left: 134px;
+  z-index: 2
 }
 
 .carousel-controls label {
@@ -1153,11 +1153,11 @@ img {
 .recent-post-text .link::after {
   position: absolute;
   content: "";
-  background: url(../img/link-arrow.svg) top center no-repeat;
   width: 5px;
   height: 8px;
   left: 83px;
-  top: 6px
+  top: 6px;
+  background: url(../img/link-arrow.svg) top center no-repeat
 }
 
 .recent-post-text .link:active::after, .recent-post-text .link:focus::after, .recent-post-text .link:hover::after {
@@ -1174,10 +1174,10 @@ img {
   height: 220px;
   margin: 0;
   background-color: #555556;
+  overflow: hidden;
   -webkit-box-ordinal-group: 0;
   -ms-flex-order: -1;
-  order: -1;
-  overflow: hidden
+  order: -1
 }
 
 .recent-post-image::before {
@@ -1205,7 +1205,6 @@ img {
 
 .pagination-list {
   width: 52px;
-  list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1214,17 +1213,15 @@ img {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 10px auto 0;
-  padding: 0
+  list-style: none;
+  padding: 0;
+  margin: 10px auto 0
 }
 
 .pagination-item a {
   display: block;
   width: 22px;
-  height: 22px;
-  -webkit-transition: background .5s ease-out;
-  -o-transition: background .5s ease-out;
-  transition: background .5s ease-out
+  height: 22px
 }
 
 .pagination-item .left-button {
@@ -1236,11 +1233,11 @@ img {
 }
 
 .pagination-item .left-button:active, .pagination-item .left-button:focus, .pagination-item .left-button:hover {
-  background: url(../img/pagination-right-hover.png) 0 0 no-repeat
+  background: url(../img/pagination-left-hover.png) 0 0 no-repeat
 }
 
 .pagination-item .right-button:active, .pagination-item .right-button:focus, .pagination-item .right-button:hover {
-  background: url(../img/pagination-left-hover.png) 0 0 no-repeat
+  background: url(../img/pagination-right-hover.png) 0 0 no-repeat
 }
 
 .partners {
@@ -1568,11 +1565,11 @@ img {
   margin-right: 25px
 }
 
-.footer-copyright-left .footer-copyright-item:not(:last-child)::after, .footer-copyright-right .footer-copyright-item:not(:last-child)::after {
+.footer-copyright-left .footer-copyright-item:not(:last-child)::after {
   position: absolute;
   content: "|";
-  right: -15px;
-  top: 0
+  top: 0;
+  right: -15px
 }
 
 .footer-copyright-item a {
